@@ -1,0 +1,10 @@
+.thumbnailImage {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.thumbnail-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

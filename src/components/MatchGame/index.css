@@ -1,0 +1,86 @@
+.top-container {
+  background-color: #2c0e3a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.website-logo {
+  width: 100px;
+}
+
+.timer {
+  width: 30px;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.score-para {
+  color: white;
+  margin-right: 10px;
+}
+.timer-para {
+  color: white;
+  margin-left: 10px;
+}
+
+.bottom-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.category {
+  margin-right: 20px;
+  font-size: 24px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.unordered-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  width: 700px;
+}
+
+.random-image {
+  width: 600px;
+  height: 300px;
+}
+
+.active-category {
+  color: #fec653;
+  border-bottom: 1px solid #fec653;
+  cursor: pointer;
+}
